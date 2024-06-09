@@ -6,7 +6,6 @@ const Navbar = () => {
   return (
     <header className="bg-secondary">
       {/* desktop navigation section  */}
-
       <div className="container flex justify-between py-4">
         <div className=" flex items-center">
           <Link to="home" spy={true} smooth={true} duration={500}>
@@ -28,7 +27,7 @@ const Navbar = () => {
             <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary group-hover:w-3/6"></span>
           </Link>
           <Link
-            to="home"
+            to="about"
             spy={true}
             smooth={true}
             duration={500}
@@ -39,7 +38,7 @@ const Navbar = () => {
             <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary group-hover:w-3/6"></span>
           </Link>
           <Link
-            to="home"
+            to="cource"
             spy={true}
             smooth={true}
             duration={500}
@@ -50,7 +49,7 @@ const Navbar = () => {
             <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary group-hover:w-3/6"></span>
           </Link>
           <Link
-            to="home"
+            to="contact"
             spy={true}
             smooth={true}
             duration={500}
