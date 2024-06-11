@@ -38,13 +38,13 @@ const Navbar = () => {
             <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary group-hover:w-3/6"></span>
           </Link>
           <Link
-            to="cource"
+            to="course"
             spy={true}
             smooth={true}
             duration={500}
             className=" text-lg group relative w-max cursor-pointer"
           >
-            <span>Cource</span>
+            <span>Courses</span>
             <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-primary group-hover:w-3/6"></span>
             <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-primary group-hover:w-3/6"></span>
           </Link>

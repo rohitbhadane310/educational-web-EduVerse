@@ -11,8 +11,8 @@ const Hero = () => {
             Learn with Expert Anytime Anywhere
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            eaque debitis harum nesciunt ipsum neque.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            vitae officia. Tempora dolorem incidunt nam?
           </p>
           <button className=" bg-primary py-2 px-4 text-white hover:bg-black transition-all">
             Get Started
